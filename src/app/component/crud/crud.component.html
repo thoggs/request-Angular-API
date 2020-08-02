@@ -1,5 +1,13 @@
 
-<div *ngFor="let i of images">
-  <h1>{{ i.title }}</h1>
-  <img [attr.src]="i.url" alt="">
+
+<div class="row row-cols-1 row-cols-md-3 g-4">
+  <div class="col" *ngFor="let item of images">
+    <div class="card">
+      <img class="img-thumbnail figure-img" [attr.src]="item.url" alt="">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">{{ item.title }}</p>
+      </div>
+    </div>
+  </div>
 </div>
