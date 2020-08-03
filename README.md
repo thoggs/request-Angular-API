@@ -1,4 +1,4 @@
-# CrudRequest
+# Crud Request API [![pipeline status](https://gitlab.com/thoggs/request-Angular-API/badges/master/pipeline.svg)](https://gitlab.com/thoggs/request-Angular-API/-/commits/master)
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.0.5.
 
